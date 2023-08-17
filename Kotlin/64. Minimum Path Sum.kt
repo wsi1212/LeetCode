@@ -15,8 +15,7 @@ fun minPathSum(grid: Array<IntArray>): Int {
 }
 
 fun main() {
-    var test = Array(3) { IntArray(3) }
-    test = arrayOf(intArrayOf(1,3,1),
+    val test = arrayOf(intArrayOf(1,3,1),
         intArrayOf(1,5,1),
         intArrayOf(4,2,1))
     print(minPathSum(test))
