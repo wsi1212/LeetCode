@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 import kotlin.math.max
 
 fun rob(nums: IntArray): Int {

@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 fun tribonacci(n: Int): Int {
     val triArr = IntArray(40)
     triArr[0] = 0

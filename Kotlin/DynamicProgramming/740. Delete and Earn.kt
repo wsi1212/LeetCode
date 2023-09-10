@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 import kotlin.math.max
 
 fun deleteAndEarn(nums: IntArray): Int {

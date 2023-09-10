@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 import kotlin.math.min
 
 fun minCostClimbingStairs(cost: IntArray): Int {

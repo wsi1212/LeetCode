@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 import kotlin.math.min
 fun minPathSum(grid: Array<IntArray>): Int {
     for (i:Int in 0 until grid.size) {

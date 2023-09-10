@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 fun findPaths(m: Int, n: Int, path1: Int, path2: Int, map: Array<IntArray>): Int {
     if (path1 == m || path2 == n)
         return 0

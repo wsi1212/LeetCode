@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 fun findPath(m: Int, n: Int, path1: Int, path2: Int, grid: Array<IntArray>, obstacleGrid: Array<IntArray>): Int {
     if (path1 == m || path2 == n || grid[path1][path2] == 1) {
         return 0

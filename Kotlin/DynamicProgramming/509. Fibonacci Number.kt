@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 fun fib(n: Int): Int {
     val fibArr = IntArray(31)
     fibArr[0] = 0

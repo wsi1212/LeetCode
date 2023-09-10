@@ -1,3 +1,5 @@
+package DynamicProgramming
+
 fun climbStairs(n: Int): Int {
     if (n == 1 || n == 2)
         return n
