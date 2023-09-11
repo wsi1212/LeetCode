@@ -1,6 +1,6 @@
 package DynamicProgramming
 
-fun minFallingPathSum(matrix: Array<IntArray>): Int {
+private fun minFallingPathSum(matrix: Array<IntArray>): Int {
     for (i in 1 until matrix.size) {
         for (j in matrix.indices) {
             matrix[i][j] += minOf(if (j > 0) matrix[i - 1][j - 1] else Int.MAX_VALUE, matrix[i - 1][j],if (j != matrix.size - 1) matrix[i - 1][j + 1] else Int.MAX_VALUE)
