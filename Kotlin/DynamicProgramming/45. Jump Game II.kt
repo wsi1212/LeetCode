@@ -3,6 +3,7 @@ fun jump(nums: IntArray): Int {
     var answer = 0
     var curFar = 0
     var curEnd = 0
+    for (i in 0 until n - 1) {
         curFar = maxOf(curFar, i + nums[i])
         if (i == curEnd) {
             answer++
